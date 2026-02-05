@@ -39,7 +39,7 @@ total_emission = (
 )
 
 st.subheader("📊 Your Carbon Footprint Result")
-st.success(
-    f"Your estimated carbon footprint is "
-    f"{total_emission:.2f} kg CO₂ per month."
-    
+
+    st.success(
+    f"Your estimated carbon footprint is {total_emission:.2f} kg CO₂ per month."
+)

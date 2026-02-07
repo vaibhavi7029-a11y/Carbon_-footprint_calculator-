@@ -1,12 +1,23 @@
-# Carbon_-footprint_calculator-
-A simple Python project to calculate monthly carbon footprint using transport, electricity, and LPG usage.
+# 🌱 Carbon Footprint Calculator
 
-## Features
-- CO₂ emission calculation
-- Total footprint result
-- Bar graph visualization
-- Eco-friendly suggestions
+A simple web application that helps users estimate their monthly carbon footprint and encourages sustainable living.
 
-## How to Run
-pip install matplotlib
-python carbon_calculator.py
+## 🚀 Features
+- 🚗 Transportation emission calculation
+- ⚡ Electricity usage impact
+- 🥗 Lifestyle-based emissions
+- 📊 Instant CO₂ result display
+- 🌍 Eco-friendly suggestions
+- 🎨 Clean UI with CSS & emojis
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- HTML/CSS
+- GitHub
+
+
+## 🔗 Live Demo
+https://your-applink.streamlit.app
+
+## 📂 How to Run Locally

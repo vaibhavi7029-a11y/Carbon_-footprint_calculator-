@@ -56,3 +56,45 @@ st.caption(
     "This is an approximate value based on transportation, electricity usage, and lifestyle."
 )
 
+# CSS styling
+st.markdown("""
+<style>
+.result-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.high {
+    background-color: #FFE6E6;
+    color: #B00020;
+}
+.low {
+    background-color: #E6F4EA;
+    color: #1B5E20;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# Logic
+if total_emission > 300:
+    st.markdown(f"""
+    <div class="result-box high">
+        🚨 <b>High Carbon Footprint!</b><br><br>
+        🌍 Your emission is <b>{total_emission:.2f} kg CO₂/month</b><br>
+        🚍 Use public transport<br>
+        💡 Save electricity<br>
+        🌱 Choose sustainable lifestyle
+    </div>
+    """, unsafe_allow_html=True)
+else:
+    st.markdown(f"""
+    <div class="result-box low">
+        ✅ <b>Great Job!</b><br><br>
+        🌿 Your emission is <b>{total_emission:.2f} kg CO₂/month</b><br>
+        🌱 You are living sustainably<br>
+        👏 Keep it up!
+    </div>
+    """, unsafe_allow_html=True)
+

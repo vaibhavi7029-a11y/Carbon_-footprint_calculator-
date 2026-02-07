@@ -51,8 +51,7 @@ st.markdown(
 )
 
 st.caption(
-    "Your estimated monthly carbon footprint. ")
+    "Your estimated monthly carbon footprint. 
    
-st.subtittle(
       "This is an approximate value based on transportation, electricity usage, and lifestyle."
 )

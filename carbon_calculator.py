@@ -29,6 +29,6 @@ print("\nTotal Carbon Footprint:", round(total_emission, 2), "kg CO2/month")
 if total_emission > 300:
     print("Use public transport and reduce electricity usage")
 else:
-    print("Great job! Keep following sustainable habits")
+    print("Great job! Keep following sustainable habits🌱")
 
 

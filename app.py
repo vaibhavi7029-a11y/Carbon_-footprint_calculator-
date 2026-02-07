@@ -40,6 +40,17 @@ total_emission = (
 
 st.header("📊 Your Carbon Footprint Result")
 
-st.success(
-    f"Your estimated carbon footprint is {total_emission:.2f} kg CO₂ per month."
-    )
+
+st.markdown(
+    f"""
+    <h1 style="text-align:center; color:#2E7D32;">
+        🌱 {total_emission:.2f} kg CO₂
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
+
+st.caption(
+    "Your estimated monthly carbon footprint. "
+    "This is an approximate value based on transportation, electricity usage, and lifestyle."
+)

@@ -50,8 +50,17 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.caption(
-    "Your estimated monthly carbon footprint. 
-   
-      "This is an approximate value based on transportation, electricity usage, and lifestyle."
+st.markdown(
+    f"""
+    <h1 style="text-align:center; color:#2E7D32;">
+        🌱 {total_emission:.2f} kg CO₂
+    </h1>
+    """,
+    unsafe_allow_html=True
 )
+
+st.caption(
+    "Your estimated monthly carbon footprint. "
+    "This is an approximate value based on transportation, electricity usage, and lifestyle."
+)
+

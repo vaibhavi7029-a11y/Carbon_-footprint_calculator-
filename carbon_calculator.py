@@ -31,12 +31,4 @@ if total_emission > 300:
 else:
     print("Great job! Keep following sustainable habits")
 
-# -------- Graph --------
-labels = ["Transport", "Electricity", "LPG"]
-values = [transport_emission, electricity_emission, lpg_emission]
 
-plt.bar(labels, values)
-plt.xlabel("Source")
-plt.ylabel("CO2 Emission (kg)")
-plt.title("Carbon Footprint Breakdown")
-plt.show()

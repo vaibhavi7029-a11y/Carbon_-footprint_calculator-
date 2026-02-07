@@ -18,6 +18,6 @@ A simple web application that helps users estimate their monthly carbon footprin
 
 
 ## 🔗 Live Demo
-https://your-applink.streamlit.app
+https://hn3evgqyjy5o7irxrxjdqt.streamlit.app/#lifestyle
 
 ## 📂 How to Run Locally
